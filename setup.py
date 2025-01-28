@@ -22,5 +22,5 @@ setup(
         "asyncio",
         "expiringdict",
         "websockets"
-    ],
+    ]
 )
