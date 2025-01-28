@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="kirka-py",  # Must be unique on PyPI
+    name="kirka-py",
     version="0.1.0",
     author="Glitchy",
     author_email="glitchytheglitchking@proton.me",
@@ -17,6 +17,10 @@ setup(
     ],
     python_requires=">=3.13",
     install_requires=[
-        # List your dependencies here
+        "aiohttp",
+        "websockets",
+        "asyncio",
+        "expiringdict",
+        "websockets"
     ],
 )
