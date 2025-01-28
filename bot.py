@@ -109,7 +109,7 @@ class KirkaBot:
 
             if ctx.command_name in self.commands:
                 if getblacklist == 2:
-                    await ctx.reply("Blacklisted.")
+                    await ctx.reply("Blacklisted")
                 elif getblacklist == 3:
                     await ctx.reply("Blacklisted from using this command.")
                 else:
